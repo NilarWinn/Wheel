@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fru-UJ-9ra">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Wheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CYa-cW-dwE" customClass="TTFortuneWheel" customModule="TTFortuneWheel">
+                                <rect key="frame" x="46.666666666666657" y="276" width="300" height="300"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="cre-OD-OHL"/>
+                                    <constraint firstAttribute="width" constant="300" id="jCZ-c0-ZsC"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uZ-Gr-W7X">
+                                <rect key="frame" x="146.66666666666666" y="596" width="100" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="TtE-Fe-URS"/>
+                                    <constraint firstAttribute="height" constant="43" id="p1Z-tt-IoT"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                                <connections>
+                                    <action selector="rotateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HUZ-cL-a0u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CYa-cW-dwE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Qd-3v-EUO"/>
+                            <constraint firstItem="CYa-cW-dwE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4Tr-gW-pPx"/>
+                            <constraint firstItem="2uZ-Gr-W7X" firstAttribute="top" secondItem="CYa-cW-dwE" secondAttribute="bottom" constant="20" id="Fzu-th-ghX"/>
+                            <constraint firstItem="2uZ-Gr-W7X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H7L-vJ-t1F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="spinningWheel" destination="CYa-cW-dwE" id="13E-W9-gEJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124" y="4"/>
+        </scene>
+        <!--Fortune Wheel View Controller-->
+        <scene sceneID="3oI-ge-Thk">
+            <objects>
+                <viewController id="fru-UJ-9ra" customClass="FortuneWheelViewController" customModule="Wheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r9F-cf-MDy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="40Y-fI-l0D" customClass="SwiftFortuneWheel" customModule="SwiftFortuneWheel">
+                                <rect key="frame" x="71.666666666666686" y="301" width="250" height="250"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="cZa-m8-GGw"/>
+                                    <constraint firstAttribute="height" constant="250" id="ddw-3E-z3R"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="spinTitle" value="SPIN"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pinImage" value="long-arrow-down"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSpinEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="unS-fE-i56">
+                                <rect key="frame" x="35" y="103" width="51" height="31"/>
+                            </switch>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="acM-1L-1dr">
+                                <rect key="frame" x="35" y="149" width="323" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZVj-r2-Qkr">
+                                <rect key="frame" x="146.66666666666666" y="561" width="100" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="8HE-U9-WfK"/>
+                                    <constraint firstAttribute="height" constant="43" id="rhE-0y-L8Q"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                                <connections>
+                                    <action selector="startSpin:" destination="fru-UJ-9ra" eventType="touchUpInside" id="Aah-cb-Wdp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nSv-Ds-ClR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="acM-1L-1dr" firstAttribute="leading" secondItem="nSv-Ds-ClR" secondAttribute="leading" constant="35" id="2wz-YE-ZP2"/>
+                            <constraint firstItem="acM-1L-1dr" firstAttribute="top" secondItem="unS-fE-i56" secondAttribute="bottom" constant="15" id="6tj-1z-oDH"/>
+                            <constraint firstItem="nSv-Ds-ClR" firstAttribute="trailing" secondItem="acM-1L-1dr" secondAttribute="trailing" constant="35" id="GdK-9r-Xws"/>
+                            <constraint firstItem="unS-fE-i56" firstAttribute="leading" secondItem="nSv-Ds-ClR" secondAttribute="leading" constant="35" id="Om1-Vv-moY"/>
+                            <constraint firstItem="unS-fE-i56" firstAttribute="top" secondItem="nSv-Ds-ClR" secondAttribute="top" constant="44" id="RL2-zu-uMQ"/>
+                            <constraint firstItem="ZVj-r2-Qkr" firstAttribute="top" secondItem="40Y-fI-l0D" secondAttribute="bottom" constant="10" id="TCs-f0-VD6"/>
+                            <constraint firstItem="40Y-fI-l0D" firstAttribute="centerY" secondItem="r9F-cf-MDy" secondAttribute="centerY" id="ahq-2g-Rhd"/>
+                            <constraint firstItem="ZVj-r2-Qkr" firstAttribute="centerX" secondItem="r9F-cf-MDy" secondAttribute="centerX" id="rzr-xl-aMq"/>
+                            <constraint firstItem="40Y-fI-l0D" firstAttribute="centerX" secondItem="r9F-cf-MDy" secondAttribute="centerX" id="zqZ-9k-cvG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="colorsTypeSegment" destination="acM-1L-1dr" id="LWW-og-BJq"/>
+                        <outlet property="drawCurvedLineSwitch" destination="unS-fE-i56" id="x9k-qh-4OG"/>
+                        <outlet property="fortuneWheel" destination="40Y-fI-l0D" id="ilj-LF-CYr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hd7-fj-0qf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="4"/>
+        </scene>
+        <!--TestVC-->
+        <scene sceneID="uVN-wI-3gw">
+            <objects>
+                <viewController id="RWv-uu-cLi" customClass="TestVC" customModule="Wheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lws-d5-o39">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JcB-Yb-dgQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ptP-fI-lvK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="4"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="abN-QW-fMf">
+            <objects>
+                <viewController id="4DO-rl-4L7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HeM-Gd-yBo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7Uh-di-WiG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dc9-rX-zZi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2494" y="4"/>
+        </scene>
+        <!--Luck WheelVC-->
+        <scene sceneID="vvY-ct-40O">
+            <objects>
+                <viewController id="j3m-70-8Vw" customClass="LuckWheelVC" customModule="Wheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dZ9-Se-GKd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jc8-KL-LrQ">
+                                <rect key="frame" x="71.666666666666686" y="301" width="250" height="250"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="6ne-xB-5Bj"/>
+                                    <constraint firstAttribute="height" constant="250" id="m7k-hH-NDW"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUw-Wt-COg">
+                                <rect key="frame" x="146.66666666666666" y="561" width="100" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="CtG-1l-8K1"/>
+                                    <constraint firstAttribute="height" constant="43" id="sN1-Z9-ZUy"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lBq-bU-dBB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jc8-KL-LrQ" firstAttribute="centerY" secondItem="dZ9-Se-GKd" secondAttribute="centerY" id="Tof-vQ-tFl"/>
+                            <constraint firstItem="Jc8-KL-LrQ" firstAttribute="centerX" secondItem="dZ9-Se-GKd" secondAttribute="centerX" id="iHu-Tq-WUC"/>
+                            <constraint firstItem="gUw-Wt-COg" firstAttribute="centerX" secondItem="dZ9-Se-GKd" secondAttribute="centerX" id="iZe-bf-2NN"/>
+                            <constraint firstItem="gUw-Wt-COg" firstAttribute="top" secondItem="Jc8-KL-LrQ" secondAttribute="bottom" constant="10" id="tvd-z7-itM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="turnBtn" destination="gUw-Wt-COg" id="IPQ-fv-AH8"/>
+                        <outlet property="wheelV" destination="dZ9-Se-GKd" id="sB6-HL-n2o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jLu-Uk-egX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3653" y="-43"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="z47-4H-LaB">
+            <objects>
+                <viewController id="2TT-Ve-bCC" customClass="GameViewController" customModule="Wheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sjA-YV-rbe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Lkb-ZD-owO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hNm-CK-mTU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4668" y="-53"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B6923B185B1CD4912ACB880 /* Pods_Wheel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC78E366152BBDF81E40EE79 /* Pods_Wheel.framework */; };
+		77129A5F2C9A71B0006E505C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A5E2C9A71B0006E505C /* AppDelegate.swift */; };
+		77129A612C9A71B0006E505C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A602C9A71B0006E505C /* SceneDelegate.swift */; };
+		77129A632C9A71B0006E505C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A622C9A71B0006E505C /* ViewController.swift */; };
+		77129A662C9A71B0006E505C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 77129A652C9A71B0006E505C /* Base */; };
+		77129A682C9A71B1006E505C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77129A672C9A71B1006E505C /* Assets.xcassets */; };
+		77129A6B2C9A71B1006E505C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 77129A6A2C9A71B1006E505C /* Base */; };
+		77129A762C9A71B1006E505C /* WheelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A752C9A71B1006E505C /* WheelTests.swift */; };
+		77129A802C9A71B1006E505C /* WheelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A7F2C9A71B1006E505C /* WheelUITests.swift */; };
+		77129A822C9A71B1006E505C /* WheelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A812C9A71B1006E505C /* WheelUITestsLaunchTests.swift */; };
+		77129A902C9A76FD006E505C /* CarnivalWheelSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A8F2C9A76FD006E505C /* CarnivalWheelSlice.swift */; };
+		77129A922C9A7C7D006E505C /* ImageWheelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A912C9A7C7D006E505C /* ImageWheelVC.swift */; };
+		77129A942C9A9FB8006E505C /* CustomFortuneWheelSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A932C9A9FB8006E505C /* CustomFortuneWheelSlice.swift */; };
+		77129A962C9AAC01006E505C /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77129A952C9AAC01006E505C /* TestVC.swift */; };
+		77190C0E2C9AB8C80026C1E8 /* LuckWheelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77190C0D2C9AB8C80026C1E8 /* LuckWheelVC.swift */; };
+		77190C102C9AC1D50026C1E8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77190C0F2C9AC1D50026C1E8 /* GameViewController.swift */; };
+		77190C122C9AC1F40026C1E8 /* SpinWheelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77190C112C9AC1F40026C1E8 /* SpinWheelScene.swift */; };
+		77190C182C9ACA000026C1E8 /* FortuneWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77190C172C9ACA000026C1E8 /* FortuneWheelView.swift */; };
+		77190C1A2C9ACBC20026C1E8 /* FortuneWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77190C192C9ACBC20026C1E8 /* FortuneWheelViewController.swift */; };
+		77190C1D2C9AD75A0026C1E8 /* Prize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77190C1C2C9AD75A0026C1E8 /* Prize.swift */; };
+		77190C1F2C9AD9190026C1E8 /* SFWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77190C1E2C9AD9190026C1E8 /* SFWConfiguration.swift */; };
+		99E2DE77037A666D52E11A39 /* Pods_WheelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309A1ACD9837CDF0901B0BAD /* Pods_WheelTests.framework */; };
+		BB398C3F6491DE7BD7120B5C /* Pods_Wheel_WheelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E86EAC4E506C11916B2BDC /* Pods_Wheel_WheelUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77129A722C9A71B1006E505C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77129A532C9A71B0006E505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77129A5A2C9A71B0006E505C;
+			remoteInfo = Wheel;
+		};
+		77129A7C2C9A71B1006E505C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77129A532C9A71B0006E505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77129A5A2C9A71B0006E505C;
+			remoteInfo = Wheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309A1ACD9837CDF0901B0BAD /* Pods_WheelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E86EAC4E506C11916B2BDC /* Pods_Wheel_WheelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheel_WheelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77129A5B2C9A71B0006E505C /* Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77129A5E2C9A71B0006E505C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77129A602C9A71B0006E505C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77129A622C9A71B0006E505C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77129A652C9A71B0006E505C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77129A672C9A71B1006E505C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77129A6A2C9A71B1006E505C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77129A6C2C9A71B1006E505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77129A712C9A71B1006E505C /* WheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77129A752C9A71B1006E505C /* WheelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelTests.swift; sourceTree = "<group>"; };
+		77129A7B2C9A71B1006E505C /* WheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77129A7F2C9A71B1006E505C /* WheelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelUITests.swift; sourceTree = "<group>"; };
+		77129A812C9A71B1006E505C /* WheelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77129A8F2C9A76FD006E505C /* CarnivalWheelSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalWheelSlice.swift; sourceTree = "<group>"; };
+		77129A912C9A7C7D006E505C /* ImageWheelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWheelVC.swift; sourceTree = "<group>"; };
+		77129A932C9A9FB8006E505C /* CustomFortuneWheelSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFortuneWheelSlice.swift; sourceTree = "<group>"; };
+		77129A952C9AAC01006E505C /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		77190C0D2C9AB8C80026C1E8 /* LuckWheelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckWheelVC.swift; sourceTree = "<group>"; };
+		77190C0F2C9AC1D50026C1E8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		77190C112C9AC1F40026C1E8 /* SpinWheelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelScene.swift; sourceTree = "<group>"; };
+		77190C172C9ACA000026C1E8 /* FortuneWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelView.swift; sourceTree = "<group>"; };
+		77190C192C9ACBC20026C1E8 /* FortuneWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelViewController.swift; sourceTree = "<group>"; };
+		77190C1C2C9AD75A0026C1E8 /* Prize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prize.swift; sourceTree = "<group>"; };
+		77190C1E2C9AD9190026C1E8 /* SFWConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFWConfiguration.swift; sourceTree = "<group>"; };
+		807D76F81AE5B3299247E5A0 /* Pods-WheelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheelTests.release.xcconfig"; path = "Target Support Files/Pods-WheelTests/Pods-WheelTests.release.xcconfig"; sourceTree = "<group>"; };
+		85076C59857D2B571C468EE8 /* Pods-Wheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheel.release.xcconfig"; path = "Target Support Files/Pods-Wheel/Pods-Wheel.release.xcconfig"; sourceTree = "<group>"; };
+		A1EB46B6395605E961D407A5 /* Pods-Wheel-WheelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheel-WheelUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wheel-WheelUITests/Pods-Wheel-WheelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B49F76510643B443E814E969 /* Pods-Wheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheel.debug.xcconfig"; path = "Target Support Files/Pods-Wheel/Pods-Wheel.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC1F24EF95757D311B5F79E /* Pods-WheelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheelTests.debug.xcconfig"; path = "Target Support Files/Pods-WheelTests/Pods-WheelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4F970DAB12CD04EE0B5C22F /* Pods-Wheel-WheelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheel-WheelUITests.release.xcconfig"; path = "Target Support Files/Pods-Wheel-WheelUITests/Pods-Wheel-WheelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC78E366152BBDF81E40EE79 /* Pods_Wheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77129A582C9A71B0006E505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6923B185B1CD4912ACB880 /* Pods_Wheel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77129A6E2C9A71B1006E505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E2DE77037A666D52E11A39 /* Pods_WheelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77129A782C9A71B1006E505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB398C3F6491DE7BD7120B5C /* Pods_Wheel_WheelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AE9D22878E88A781EB620B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B49F76510643B443E814E969 /* Pods-Wheel.debug.xcconfig */,
+				85076C59857D2B571C468EE8 /* Pods-Wheel.release.xcconfig */,
+				A1EB46B6395605E961D407A5 /* Pods-Wheel-WheelUITests.debug.xcconfig */,
+				F4F970DAB12CD04EE0B5C22F /* Pods-Wheel-WheelUITests.release.xcconfig */,
+				DCC1F24EF95757D311B5F79E /* Pods-WheelTests.debug.xcconfig */,
+				807D76F81AE5B3299247E5A0 /* Pods-WheelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		371FA3474C2AF788BACC5F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC78E366152BBDF81E40EE79 /* Pods_Wheel.framework */,
+				57E86EAC4E506C11916B2BDC /* Pods_Wheel_WheelUITests.framework */,
+				309A1ACD9837CDF0901B0BAD /* Pods_WheelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77129A522C9A71B0006E505C = {
+			isa = PBXGroup;
+			children = (
+				77129A5D2C9A71B0006E505C /* Wheel */,
+				77129A742C9A71B1006E505C /* WheelTests */,
+				77129A7E2C9A71B1006E505C /* WheelUITests */,
+				77129A5C2C9A71B0006E505C /* Products */,
+				19AE9D22878E88A781EB620B /* Pods */,
+				371FA3474C2AF788BACC5F75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77129A5C2C9A71B0006E505C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77129A5B2C9A71B0006E505C /* Wheel.app */,
+				77129A712C9A71B1006E505C /* WheelTests.xctest */,
+				77129A7B2C9A71B1006E505C /* WheelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77129A5D2C9A71B0006E505C /* Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				77129A5E2C9A71B0006E505C /* AppDelegate.swift */,
+				77129A602C9A71B0006E505C /* SceneDelegate.swift */,
+				77129A622C9A71B0006E505C /* ViewController.swift */,
+				77129A642C9A71B0006E505C /* Main.storyboard */,
+				77129A672C9A71B1006E505C /* Assets.xcassets */,
+				77129A692C9A71B1006E505C /* LaunchScreen.storyboard */,
+				77129A6C2C9A71B1006E505C /* Info.plist */,
+				77129A8F2C9A76FD006E505C /* CarnivalWheelSlice.swift */,
+				77129A912C9A7C7D006E505C /* ImageWheelVC.swift */,
+				77190C172C9ACA000026C1E8 /* FortuneWheelView.swift */,
+				77129A932C9A9FB8006E505C /* CustomFortuneWheelSlice.swift */,
+				77129A952C9AAC01006E505C /* TestVC.swift */,
+				77190C0D2C9AB8C80026C1E8 /* LuckWheelVC.swift */,
+				77190C0F2C9AC1D50026C1E8 /* GameViewController.swift */,
+				77190C112C9AC1F40026C1E8 /* SpinWheelScene.swift */,
+				77190C192C9ACBC20026C1E8 /* FortuneWheelViewController.swift */,
+				77190C1C2C9AD75A0026C1E8 /* Prize.swift */,
+				77190C1E2C9AD9190026C1E8 /* SFWConfiguration.swift */,
+			);
+			path = Wheel;
+			sourceTree = "<group>";
+		};
+		77129A742C9A71B1006E505C /* WheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				77129A752C9A71B1006E505C /* WheelTests.swift */,
+			);
+			path = WheelTests;
+			sourceTree = "<group>";
+		};
+		77129A7E2C9A71B1006E505C /* WheelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77129A7F2C9A71B1006E505C /* WheelUITests.swift */,
+				77129A812C9A71B1006E505C /* WheelUITestsLaunchTests.swift */,
+			);
+			path = WheelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77129A5A2C9A71B0006E505C /* Wheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77129A852C9A71B1006E505C /* Build configuration list for PBXNativeTarget "Wheel" */;
+			buildPhases = (
+				FFE9C2404ACDD81F9F7615C8 /* [CP] Check Pods Manifest.lock */,
+				77129A572C9A71B0006E505C /* Sources */,
+				77129A582C9A71B0006E505C /* Frameworks */,
+				77129A592C9A71B0006E505C /* Resources */,
+				B9F4BDE5A50CC853E7FFA003 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wheel;
+			productName = Wheel;
+			productReference = 77129A5B2C9A71B0006E505C /* Wheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77129A702C9A71B1006E505C /* WheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77129A882C9A71B1006E505C /* Build configuration list for PBXNativeTarget "WheelTests" */;
+			buildPhases = (
+				1C4517F32FA5EB6C31C07BAC /* [CP] Check Pods Manifest.lock */,
+				77129A6D2C9A71B1006E505C /* Sources */,
+				77129A6E2C9A71B1006E505C /* Frameworks */,
+				77129A6F2C9A71B1006E505C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77129A732C9A71B1006E505C /* PBXTargetDependency */,
+			);
+			name = WheelTests;
+			productName = WheelTests;
+			productReference = 77129A712C9A71B1006E505C /* WheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77129A7A2C9A71B1006E505C /* WheelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77129A8B2C9A71B1006E505C /* Build configuration list for PBXNativeTarget "WheelUITests" */;
+			buildPhases = (
+				C56AFBD1E833D203EBD41C42 /* [CP] Check Pods Manifest.lock */,
+				77129A772C9A71B1006E505C /* Sources */,
+				77129A782C9A71B1006E505C /* Frameworks */,
+				77129A792C9A71B1006E505C /* Resources */,
+				C5655D3D88494694FE24B3AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77129A7D2C9A71B1006E505C /* PBXTargetDependency */,
+			);
+			name = WheelUITests;
+			productName = WheelUITests;
+			productReference = 77129A7B2C9A71B1006E505C /* WheelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77129A532C9A71B0006E505C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					77129A5A2C9A71B0006E505C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					77129A702C9A71B1006E505C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 77129A5A2C9A71B0006E505C;
+					};
+					77129A7A2C9A71B1006E505C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 77129A5A2C9A71B0006E505C;
+					};
+				};
+			};
+			buildConfigurationList = 77129A562C9A71B0006E505C /* Build configuration list for PBXProject "Wheel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77129A522C9A71B0006E505C;
+			productRefGroup = 77129A5C2C9A71B0006E505C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77129A5A2C9A71B0006E505C /* Wheel */,
+				77129A702C9A71B1006E505C /* WheelTests */,
+				77129A7A2C9A71B1006E505C /* WheelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77129A592C9A71B0006E505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77129A682C9A71B1006E505C /* Assets.xcassets in Resources */,
+				77129A6B2C9A71B1006E505C /* Base in Resources */,
+				77129A662C9A71B0006E505C /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77129A6F2C9A71B1006E505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77129A792C9A71B1006E505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C4517F32FA5EB6C31C07BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F4BDE5A50CC853E7FFA003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheel/Pods-Wheel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheel/Pods-Wheel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wheel/Pods-Wheel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5655D3D88494694FE24B3AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheel-WheelUITests/Pods-Wheel-WheelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheel-WheelUITests/Pods-Wheel-WheelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wheel-WheelUITests/Pods-Wheel-WheelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56AFBD1E833D203EBD41C42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wheel-WheelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE9C2404ACDD81F9F7615C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wheel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77129A572C9A71B0006E505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77129A902C9A76FD006E505C /* CarnivalWheelSlice.swift in Sources */,
+				77190C1D2C9AD75A0026C1E8 /* Prize.swift in Sources */,
+				77190C0E2C9AB8C80026C1E8 /* LuckWheelVC.swift in Sources */,
+				77190C182C9ACA000026C1E8 /* FortuneWheelView.swift in Sources */,
+				77190C122C9AC1F40026C1E8 /* SpinWheelScene.swift in Sources */,
+				77129A632C9A71B0006E505C /* ViewController.swift in Sources */,
+				77129A5F2C9A71B0006E505C /* AppDelegate.swift in Sources */,
+				77190C102C9AC1D50026C1E8 /* GameViewController.swift in Sources */,
+				77129A942C9A9FB8006E505C /* CustomFortuneWheelSlice.swift in Sources */,
+				77190C1A2C9ACBC20026C1E8 /* FortuneWheelViewController.swift in Sources */,
+				77129A922C9A7C7D006E505C /* ImageWheelVC.swift in Sources */,
+				77129A612C9A71B0006E505C /* SceneDelegate.swift in Sources */,
+				77129A962C9AAC01006E505C /* TestVC.swift in Sources */,
+				77190C1F2C9AD9190026C1E8 /* SFWConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77129A6D2C9A71B1006E505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77129A762C9A71B1006E505C /* WheelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77129A772C9A71B1006E505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77129A822C9A71B1006E505C /* WheelUITestsLaunchTests.swift in Sources */,
+				77129A802C9A71B1006E505C /* WheelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77129A732C9A71B1006E505C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77129A5A2C9A71B0006E505C /* Wheel */;
+			targetProxy = 77129A722C9A71B1006E505C /* PBXContainerItemProxy */;
+		};
+		77129A7D2C9A71B1006E505C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77129A5A2C9A71B0006E505C /* Wheel */;
+			targetProxy = 77129A7C2C9A71B1006E505C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77129A642C9A71B0006E505C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77129A652C9A71B0006E505C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77129A692C9A71B1006E505C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77129A6A2C9A71B1006E505C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77129A832C9A71B1006E505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77129A842C9A71B1006E505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77129A862C9A71B1006E505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49F76510643B443E814E969 /* Pods-Wheel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WR3SFYBF4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wheel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlw.FortuneWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77129A872C9A71B1006E505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85076C59857D2B571C468EE8 /* Pods-Wheel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WR3SFYBF4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wheel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlw.FortuneWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77129A892C9A71B1006E505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC1F24EF95757D311B5F79E /* Pods-WheelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WR3SFYBF4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlw.WheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wheel";
+			};
+			name = Debug;
+		};
+		77129A8A2C9A71B1006E505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807D76F81AE5B3299247E5A0 /* Pods-WheelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WR3SFYBF4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlw.WheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wheel";
+			};
+			name = Release;
+		};
+		77129A8C2C9A71B1006E505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1EB46B6395605E961D407A5 /* Pods-Wheel-WheelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WR3SFYBF4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlw.WheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wheel;
+			};
+			name = Debug;
+		};
+		77129A8D2C9A71B1006E505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F970DAB12CD04EE0B5C22F /* Pods-Wheel-WheelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WR3SFYBF4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlw.WheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wheel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77129A562C9A71B0006E505C /* Build configuration list for PBXProject "Wheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77129A832C9A71B1006E505C /* Debug */,
+				77129A842C9A71B1006E505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77129A852C9A71B1006E505C /* Build configuration list for PBXNativeTarget "Wheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77129A862C9A71B1006E505C /* Debug */,
+				77129A872C9A71B1006E505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77129A882C9A71B1006E505C /* Build configuration list for PBXNativeTarget "WheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77129A892C9A71B1006E505C /* Debug */,
+				77129A8A2C9A71B1006E505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77129A8B2C9A71B1006E505C /* Build configuration list for PBXNativeTarget "WheelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77129A8C2C9A71B1006E505C /* Debug */,
+				77129A8D2C9A71B1006E505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77129A532C9A71B0006E505C /* Project object */;
+}
